@@ -51,7 +51,7 @@ class SingleDatePicker: UIView {
         }
     }
 
-    var dateFormat: String? = "M月dd日 EEE"{
+    var dateFormat: String? = "M月dd日 EEE" {
         didSet {
             needsReload = true
             setNeedsDisplay()
